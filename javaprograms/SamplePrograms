@@ -1,4 +1,4 @@
-Program 1
+Program 1 (Object Creation)
 public class CreateObjectExample1   
 {    
 void show()    
@@ -13,4 +13,20 @@ CreateObjectExample1 obj = new CreateObjectExample1();
 obj.show();    
 }  
 
-Program 2
+
+
+Program 2 (Reverse a number using while loop)
+public class ReverseNumberExample1   
+{  
+public static void main(String[] args)   
+{  
+int number = 987654, reverse = 0;  
+while(number != 0)   
+{  
+int remainder = number % 10;  
+reverse = reverse * 10 + remainder;  
+number = number/10;  
+}  
+System.out.println("The reverse of the given number is: " + reverse);  
+}  
+} 
